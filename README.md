@@ -17,10 +17,11 @@
 
 **Example:**
 
-* Built a \[insert model type\] using \[techniques used\] to solve \[Kaggle competition task\]
-* Achieved an F1 score of \[insert score\] and a ranking of \[insert ranking out of participating teams\] on the final Kaggle Leaderboard
-* Used \[explainability tool\] to interpret model decisions
-* Implemented \[data preprocessing method\] to optimize results within compute constraints
+* Built a ResNet model using techniques such as data augmentation, class weighting, weighted random sampling, and gradient accumulation to solve the Equitable AI for Dermatology Kaggle Competition.
+* Achieved an F1 score of .4775 and a ranking of 20th on the final Kaggle Leaderboard
+* We utilized the classification_report from sklearn to provide detailed insights into the model’s performance. This report displays the precision, recall and F1-score for each class label, enabling us to understand how well the model performed in classifying different skin condition categories. This helped with the interpretation of model decisions and to identify potential areas for improvement.
+* To optimize results within compute constraints we used gradient accumulation, updating model weights every 2 batches, to effectively increase batch size. We also used weighted random sampling to counter the issue of imbalance data. This helped ensure the model was not overtrained on larger classes within the dataset. 
+
 
 🔗 [Equitable AI for Dermatology | Kaggle Competition Page](https://www.kaggle.com/competitions/bttai-ajl-2025/overview)
 
