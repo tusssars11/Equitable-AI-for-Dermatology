@@ -6,7 +6,7 @@
 
 | Name | GitHub Handle | Contribution |
 | ----- | ----- | ----- |
-| Noam Riner | @ | Co Captain |
+| Noam Riner | @noamreiner17 | Captain |
 | Adriana Rincon | @adririncon | |
 | Henok Misgina Fisseha | @Henok-Foslyk |  |
 | Mina Yang | @mintudse |  |
@@ -31,10 +31,42 @@
 **Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
 
 * How to clone the repository
+
+```bash
+git clone <repository-url>
+cd <repository-name>
+```
+
 * How to install dependencies
+
+Ensure you have Python installed (preferably version 3.x).
+
 * How to set up the environment
+
+Make sure you have Jupyter Notebook installed:
+
+```bash
+pip install notebook
+```
+
+Then, launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
 * How to access the dataset(s)
+Download the dataset from the following link:
+[Google Drive Dataset](https://drive.google.com/drive/folders/15nmm2SjiTsMzqnO-gXLttlXaFniwxxil?usp=drive_link)
+
+Save the dataset files to the appropriate location within the project directory. Update the notebook/script with the correct file path if necessary.
+
 * How to run the notebook or scripts
+
+Ensure both the Jupyter Notebook and dataset are in the correct directory. Open the notebook and adjust the dataset path if needed. Then, run the notebook step by step to reproduce the results.
+
+
+
 
 ---
 
