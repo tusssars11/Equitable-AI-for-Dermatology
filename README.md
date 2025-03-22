@@ -89,19 +89,16 @@ This challenge from Break Through Tech and the Algorithmic Justice League invite
 
 ## **📊 Data Exploration**
 
-* The dataset(s) used (i.e., the data provided in Kaggle \+ any additional sources)
 This dataset is a 4,500-image subset of FitzPatrick17k, which labels dermatological conditions across skin tones using the FitzPatrick Skin Type (FST) scale. It includes 21 conditions from the full set of 100+, balancing a manageable classification task with key representation challenges.
 
 * Data exploration and preprocessing approaches
 
 We explored the data by visualizing any class imbalances and missing values, which informed our data preprocessing approach. There were no missing values except in the ‘qc’ column (around 97% were null values), which was handled by removing the column. In terms of class distribution, squamous cell carcinoma was the most represented in our dataset, while basal cell carcinoma morpheiform was the least common. Overall, there is a class imbalance in our distribution, which could cause bias in our model training. Some approaches to tackle this issue are sampling more of the minority classes, or adding weights to them during training.
 
-* Challenges and assumptions when working with the dataset(s)
+* Challenges and assumptions when working with the dataset
 One challenge was that it was the first time working with image classification for many of us, so understanding image data was one of the first steps we had to take. Another challenge was addressing class imbalance within the data, which would affect our model training and results. During this process, another one of our goals was to be able to train a model that could predict well on varying skin types. This proved to be a challenge as we evaluated our model, so we had to tune our model for accuracy and bias.
 
-**Potential visualizations to include:**
-
-* Plots, charts, heatmaps, feature visualizations, sample dataset images
+Here is a visualization of the class distribution of the dataset:
 ![classdistribution](https://github.com/user-attachments/assets/fed61f33-096e-4a2c-96fe-d2107b277de6)
 
 ---
