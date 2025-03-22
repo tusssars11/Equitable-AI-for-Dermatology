@@ -6,7 +6,7 @@
 
 | Name | GitHub Handle | Contribution |
 | ----- | ----- | ----- |
-| Noam Riner | @noamreiner17 | Captain: Managed team communication and progress tracking. Contributed to README updates, setting up the initial model and model accuracy improvements. |
+| Noam Riner | @noamreiner17 | Team Captain. Managed team communication and progress tracking. Contributed to README updates, setting up the initial model and model accuracy improvements. |
 | Adriana Rincon | @adririncon | Created group documentation, contributed to README updates, and model exploration/accuracy |
 | Henok Misgina Fisseha | @Henok-Foslyk | Worked on model exploration and data preprocessing. Focused on improving model accuracy. |
 | Mina Yang | @mintudse | Focused on data exploration and preprocessing; contributed to README updates and model accuracy improvements. |
