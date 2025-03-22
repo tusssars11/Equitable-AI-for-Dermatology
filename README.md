@@ -109,9 +109,10 @@ Here is a visualization of the class distribution of the dataset:
 
 **Describe (as applicable):**
 
-* Model(s) used (e.g., CNN with transfer learning, regression models)
-* Feature selection and Hyperparameter tuning strategies
-* Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
+* Model(s) used: ResNet 50 (CNN) with transfer learning to leverage pre-trained weights for improved performance. 
+* Feature selection and Hyperparameter tuning strategies: Used images provided and pre-processed them (resized, normalization, and data augmentation). Implemented a learning rate scheduler to adapt during training. Also used the AdamW optimizer for better regularization. 
+* Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance): Used provided training data sets to train the model with a batch size of 32. Utilized 50 epochs. 
+
 
 ---
 
@@ -119,8 +120,11 @@ Here is a visualization of the class distribution of the dataset:
 
 **Describe (as applicable):**
 
-* Performance metrics (e.g., Kaggle Leaderboard score, F1-score)
-* How your model performed overall
+* Performance metrics (e.g., Kaggle Leaderboard score, F1-score): 20th on leaderboard. Received a score of  0.47753 on the leaderboard
+* How your model performed overall: Our overall model accuracy was 92.24%, with an average precision score of .93, recall score of .97, and f1 score of .92 across the different skin conditions.
+* Currently working on improving our preformance. 
+
+**NEED TO FILL**
 * How your model performed across different skin tones (AJL)
 * Insights from evaluating model fairness (AJL)
 
