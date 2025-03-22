@@ -6,11 +6,12 @@
 
 | Name | GitHub Handle | Contribution |
 | ----- | ----- | ----- |
-| Noam Riner | @noamreiner17 | Captain |
-| Adriana Rincon | @adririncon | |
-| Henok Misgina Fisseha | @Henok-Foslyk |  |
-| Mina Yang | @mintudse |  |
-| Tushar Koushik | @tusssars11 |  |
+| Noam Riner | @noamreiner17 | Captain: Managed team communication and progress tracking. Contributed to README updates, setting up the initial model and model accuracy improvements. |
+| Adriana Rincon | @adririncon | Created group documentation, contributed to README updates, and model exploration/accuracy |
+| Henok Misgina Fisseha | @Henok-Foslyk | Worked on model exploration and data preprocessing. Focused on improving model accuracy. |
+| Mina Yang | @mintudse | Focused on data exploration and preprocessing; contributed to README updates and model accuracy improvements. |
+| Tushar Koushik | @tusssars11 | Worked on model exploration and data preprocessing. Focused on improving model accuracy. |
+
 ---
 
 ## **🎯 Project Highlights**
@@ -154,8 +155,14 @@ Check out [this guide](https://drive.google.com/file/d/1kYKaVNR\_l7Abx2kebs3AdDi
 **Address the following:**
 
 * What are some of the limitations of your model?
+Limitations could include the reliance of the single pre-trained model used. Also, even using class weights, the model’s performance is heavily dependent on the quality and diversity of the training data we were provided. 
+
 * What would you do differently with more time/resources?
-* What additional datasets or techniques would you explore?
+If we had better processes, we would adjust the model parameters (such as increasing the number of epochs) and/or increase the amount of data processed to improve predictions. We would like to explore more model options in order to improve prediction. Have a better understanding of how different skin types affect the prediction. 
+
+
+
+* What additional datasets or techniques would you explore? TODO
 
 ---
 
