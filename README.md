@@ -10,7 +10,7 @@
 | Adriana Rincon | @adririncon | |
 | Henok Misgina Fisseha | @Henok-Foslyk |  |
 | Mina Yang | @mintudse |  |
-| Tushar Koushik | @ |  |
+| Tushar Koushik | @tusssars11 |  |
 ---
 
 ## **🎯 Project Highlights**
