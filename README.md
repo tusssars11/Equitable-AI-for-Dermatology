@@ -162,13 +162,23 @@ If we had better processes, we would adjust the model parameters (such as increa
 
 
 
-* What additional datasets or techniques would you explore? TODO
+* What additional datasets or techniques would you explore? 
 
----
+Conduct a more detailed analysis of fairness.
+
+Experiment with additional data augmentation techniques. Train on a super computer with different techniques.
+
+Collaborate with dermatologists for expert validation.
+
+
 
 ## **📄 References & Additional Resources**
 
-* Cite any relevant papers, articles, or tools used in your project
+Algorithmic Justice League
+
+FitzPatrick17k Dataset
+
+ResNet-50
 
 ---
 
