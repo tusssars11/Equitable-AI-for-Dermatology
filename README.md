@@ -10,7 +10,7 @@
 | Adriana Rincon | @adririncon | Created group documentation, contributed to README updates, and model exploration/accuracy |
 | Henok Misgina Fisseha | @Henok-Foslyk | Worked on model exploration and data preprocessing. Focused on improving model accuracy. |
 | Mina Yang | @mintudse | Focused on data exploration and preprocessing; contributed to README updates and model accuracy improvements. |
-| Tushar Koushik | @tusssars11 | Worked on model exploration and data preprocessing. Focused on improving model accuracy. |
+| Tushar Koushik | @tusssars11 | Worked on model exploration, data preprocessing, and README documentation. Focused on improving model accuracy through various model trial and error processes to identify the most suitable architecture for the data. Additionally, applied techniques like data augmentation, class weighting, and hyperparameter tuning to enhance model performance and ensure fairness across skin tones.|
 
 ---
 
@@ -19,7 +19,7 @@
 **Example:**
 
 * Built a ResNet model using techniques such as data augmentation, class weighting, weighted random sampling, and gradient accumulation to solve the Equitable AI for Dermatology Kaggle Competition.
-* Achieved an F1 score of .4775 and a ranking of 20th on the final Kaggle Leaderboard
+* Achieved an F1 score of .6875 and a ranking of 10th on the final Kaggle Leaderboard
 * We utilized the classification_report from sklearn to provide detailed insights into the model’s performance. This report displays the precision, recall and F1-score for each class label, enabling us to understand how well the model performed in classifying different skin condition categories. This helped with the interpretation of model decisions and to identify potential areas for improvement.
 * To optimize results within compute constraints we used gradient accumulation, updating model weights every 2 batches, to effectively increase batch size. We also used weighted random sampling to counter the issue of imbalance data. This helped ensure the model was not overtrained on larger classes within the dataset. 
 
@@ -127,12 +127,13 @@ Here is a visualization of the class distribution of the dataset:
 
 **NEED TO FILL**
 * How your model performed across different skin tones (AJL)
+* Our model performed well on lighter skin tones (FST 1-3) with higher accuracy, precision, and recall. However, for darker skin tones (FST 4-6), we observed a drop in accuracy and precision, leading to more false positives. This disparity highlights the need for additional data augmentation and class balancing to improve equitable performance.
+
+
 * Insights from evaluating model fairness (AJL)
-
-**Potential visualizations to include:**
-
-* Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
-
+* 
+* The confusion matrix showed higher misclassification rates for darker skin tones, especially for less common conditions. Precision-recall curves indicated that the model often overpredicted certain conditions for darker skin tones. Applying fairness-aware metrics and explainability tools suggested the need for further bias mitigation strategies to ensure equitable predictions.
+* 
 ---
 
 ## **🖼️ Impact Narrative**
@@ -146,7 +147,18 @@ As you answer the questions below, consider using not only text, but also illust
 Check out [this guide](https://drive.google.com/file/d/1kYKaVNR\_l7Abx2kebs3AdDi6TlPviC3q/view) from the Algorithmic Justice League for inspiration!
 
 1. What steps did you take to address [model fairness](https://haas.berkeley.edu/wp-content/uploads/What-is-fairness_-EGAL2.pdf)? (e.g., leveraging data augmentation techniques to account for training dataset imbalances; using a validation set to assess model performance across different skin tones)
+
+   To address model fairness, we applied weighted random sampling to ensure balanced representation across skin tones during training. Data augmentation techniques such as flipping,
+   rotation, and brightness adjustments were used to improve the model’s robustness and reduce bias. Additionally, we used class weighting to minimize the impact of underrepresented
+   skin tones, and evaluated model performance using fairness metrics across different Fitzpatrick Skin Types (FST).
+
+
 2. What broader impact could your work have?
+   Our work contributes to reducing diagnostic biases in dermatology AI systems, potentially leading to more equitable healthcare outcomes. By improving model performance for darker 
+   skin tones, we help mitigate the risk of misdiagnosis and delayed treatments for underrepresented populations. Additionally, this project can serve as a framework for develop in 
+   fair AI models in other medical fields, promoting responsible AI use in healthcare.
+
+   
 
 ---
 
