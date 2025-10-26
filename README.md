@@ -10,7 +10,7 @@
 | Adriana Rincon | @adririncon | Created group documentation, contributed to README updates, and model exploration/accuracy |
 | Henok Misgina Fisseha | @Henok-Foslyk | Worked on model exploration and data preprocessing. Focused on improving model accuracy. |
 | Mina Yang | @mintudse | Focused on data exploration and preprocessing; contributed to README updates and model accuracy improvements. |
-| Tushar Koushik | @tusssars11 | Worked on model exploration and data preprocessing. Focused on improving model accuracy. |
+| Tushar Koushik | @tusssars11 | Worked on model exploration and data preprocessing. Contributed to README updates, setting up the initial model and model accuracy improvements. Focused on improving model accuracy. |
 
 ---
 
