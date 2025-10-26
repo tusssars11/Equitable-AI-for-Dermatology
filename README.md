@@ -160,15 +160,7 @@ Limitations could include the reliance of the single pre-trained model used. Als
 * What would you do differently with more time/resources?
 If we had better processes, we would adjust the model parameters (such as increasing the number of epochs) and/or increase the amount of data processed to improve predictions. We would like to explore more model options in order to improve prediction. Have a better understanding of how different skin types affect the prediction. 
 
-
-
-* What additional datasets or techniques would you explore? TODO
-
 ---
 
-## **📄 References & Additional Resources**
 
-* Cite any relevant papers, articles, or tools used in your project
-
----
 
